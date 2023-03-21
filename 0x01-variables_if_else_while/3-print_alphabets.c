@@ -13,17 +13,17 @@ int j = 65;
 
 while (i <= 122)
 {
-putchar("%c", i);
+putchar(i);
 i++;
 }
 
 while (j <= 90)
 {
-putchar("%c", j);
+putchar(j);
 j++;
 }
 
-putchar("%c", 36);
+putchar(36);
 
 return (0);
 }
