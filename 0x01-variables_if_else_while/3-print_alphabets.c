@@ -23,7 +23,7 @@ putchar(j);
 j++;
 }
 
-putchar(36);
+putchar("\n");
 
 return (0);
 }
