@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,7 +8,14 @@
  */
 int main(void)
 {
-_putchar("_putchar\n");
+char out[9] = {"_", "p", "u", "t", "c", "h", "a", "r", "\n"};
+int i = 0;
+
+while (i < 9)
+{
+_putchar(out[i]);
+i++;
+}
 
 return (0);
 }
