@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char out[9] = {"_", "p", "u", "t", "c", "h", "a", "r", "\n"};
+char out[9] = {95, 112, 117, 116, 99, 104, 97, 114};
 int i = 0;
 
 while (i < 9)
