@@ -8,7 +8,8 @@
  */
 void print_alphabet_x10(void)
 {
-int base = 97, line;
+int base = 97;
+int line;
 
 for (line = 0; line < 10; line++)
 {
