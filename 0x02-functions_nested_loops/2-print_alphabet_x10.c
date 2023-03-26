@@ -18,6 +18,7 @@ while (base <= 122)
 _putchar(base);
 base++;
 }
+base = 97;
 _putchar('\n');
 }
 }
