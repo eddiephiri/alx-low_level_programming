@@ -11,7 +11,7 @@ int main(void)
 int out[] = {95, 112, 117, 116, 99, 104, 97, 114};
 int i = 0;
 
-while (i < sizeof(out))
+while (i < 8)
 {
 _putchar(out[i]);
 i++;
