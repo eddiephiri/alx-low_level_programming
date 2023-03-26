@@ -12,12 +12,12 @@ int print_sign(int n)
 {
 if (n == 0)
 {
-printf("0");
+print("0");
 return (0);
 }
 else if (n < 0)
 {
-printf("-");
+print("-");
 return (-1);
 }
 
