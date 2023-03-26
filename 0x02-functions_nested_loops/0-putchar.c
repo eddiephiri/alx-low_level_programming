@@ -17,5 +17,6 @@ _putchar(out[i]);
 i++;
 }
 
+_putchar('\n');
 return (0);
 }
