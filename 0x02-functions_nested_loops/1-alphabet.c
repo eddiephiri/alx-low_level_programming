@@ -12,6 +12,7 @@ int base = 97;
 while (base <= 122)
 {
 _putchar(base);
+base++;
 }
 
 _putchar('\n');
