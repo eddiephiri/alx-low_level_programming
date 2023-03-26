@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_sign - Prints the sign of the given input
@@ -12,12 +13,12 @@ int print_sign(int n)
 {
 if (n == 0)
 {
-print("0");
+printf("0");
 return (0);
 }
 else if (n < 0)
 {
-print("-");
+printf("-");
 return (-1);
 }
 
