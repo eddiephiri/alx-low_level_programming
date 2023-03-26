@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-char out[9] = {95, 112, 117, 116, 99, 104, 97, 114};
+int out[] = {95, 112, 117, 116, 99, 104, 97, 114};
 int i = 0;
 
-while (i < 9)
+while (i < sizeof(out))
 {
 _putchar(out[i]);
 i++;
