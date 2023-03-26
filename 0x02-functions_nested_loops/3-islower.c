@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - returns a boolean
+ * _islower - returns a boolean
  *@c: Integer value to be checked
  *
  * Return: 1 if @c is lowercase, 0 if otherwise.
