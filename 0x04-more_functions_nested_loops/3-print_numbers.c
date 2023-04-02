@@ -5,7 +5,7 @@
  * print_numbers - Printes numbers from 0 through 9
  * followed by a newline.
  *
- * Return: Alwasy (0) Success.
+ * Return: No return value.
  */
 
 void print_numbers(void)
@@ -16,6 +16,4 @@ _putchar(i);
 }
 
 _putchar('\n');
-
-return;
 }
