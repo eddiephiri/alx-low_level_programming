@@ -9,7 +9,7 @@
  * Return: 1 if @c is digit and 0 otherwise
  */
 
-int _isdigit(c)
+int _isdigit(int c)
 {
 if (c <= 48 && c >= 57)
 {
