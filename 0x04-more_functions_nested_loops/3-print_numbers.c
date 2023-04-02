@@ -8,7 +8,7 @@
  * Return: Alwasy (0) Success.
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 for (int i = 48; i <= 59; i++)
 {
@@ -17,5 +17,5 @@ _putchar(i);
 
 _putchar('\n');
 
-return (0);
+return;
 }
