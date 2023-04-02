@@ -12,7 +12,7 @@ int print_numbers(void)
 {
 for (int i = 48; i <= 59; i++)
 {
-_puthcar(i);
+_putchar(i);
 }
 
 _putchar('\n');
